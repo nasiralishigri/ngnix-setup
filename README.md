@@ -24,3 +24,8 @@
     }
 }
 
+# Enable Your Site Configuration
+
+   sudo ln -s /etc/nginx/sites-available/<your domain name> /etc/nginx/sites-enabled/
+
+
