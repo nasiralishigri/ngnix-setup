@@ -28,9 +28,13 @@
 
      sudo ln -s /etc/nginx/sites-available/<your domain name> /etc/nginx/sites-enabled/
 
-#Test NGINX Configuration
+# Test NGINX Configuration
 
       sudo nginx -t
+# Restart NGINX:
+
+     sudo systemctl restart nginx
+
 
 
 
