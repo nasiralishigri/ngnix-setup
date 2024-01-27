@@ -35,6 +35,22 @@
 
      sudo systemctl restart nginx
 
+#  SSL Certificate:
+#  Install Certbot (for Let's Encrypt
+
+      sudo apt update
+      sudo apt install certbot python3-certbot-nginx
+# Obtain SSL Certificate:
+
+    sudo certbot --nginx -d <yourdomainname>
+
+# Verify Configuration and Restart
+
+     sudo nginx -t
+     sudo systemctl restart nginx
+
+
+
 
 
 
