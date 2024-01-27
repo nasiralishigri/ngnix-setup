@@ -7,7 +7,7 @@
        
 # Configure Nginx
 
-        nano  /etc/nginx/sites-available/<yourdomin.extension>
+        sudo nano  /etc/nginx/sites-available/<yourdomin.extension>
 # Update Congiuration File
 
     server {
